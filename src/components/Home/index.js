@@ -10,7 +10,7 @@ function Home(props) {
                     when you can order
                     form Bella Onojie
                 </h1>
-                <h2>Download the bella onoje’s
+                <h2 data-aos="zoom-in" data-aos-duration="1100">Download the bella onoje’s
                     food app now on
                 </h2>
                 <div data-aos="fade-up" data-aos-duration="700" className='btn-store'>

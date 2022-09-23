@@ -26,14 +26,14 @@ function Content(props) {
 
 
     const print = list.map((e, index) => {
-        return <div className={`content-item ${index % 2 == 0 ? 'flex-direction--row--reverse' : ''}`}>
+        return <div data-aos='fade-up'
+        data-aos-duration="1400"  className={`content-item ${index % 2 == 0 ? 'flex-direction--row--reverse' : ''}`}>
             <div className='content-info'>
                 <h2 className='orange-title'>{e.title}</h2>
                 <h1>{e.bigTitle}</h1>
                 <h2>{e.desc}</h2>
             </div>
-            <img data-aos='fade-up'
-                data-aos-duration="1000" src={e.imgSrc}></img>
+            <img src={e.imgSrc}></img>
         </div>
     })
     return (
