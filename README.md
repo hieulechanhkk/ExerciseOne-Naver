@@ -2,9 +2,24 @@
 
 npm install
 
-## Available Scripts
+## All source-code Project in folder 'src'
 
-In the project directory, you can run:
+In folder 'src', You can see 'components' folder, this folder contains all components.
+In folder 'stylesheet', this folder contains all style in .css file
+App.js running all components
+index.css is a default css & general css style
+
+.
+└── src/
+    ├── components/ (-> All Components)
+    │   ├── Home  
+    │   ├── Content
+    │   ├── Download
+    │   └── Footer
+    ├── stylesheet/ (-> Style Website)
+    │   └── responesive.css
+    ├── App.js
+    └── index.css
 
 ### `npm start`
 
