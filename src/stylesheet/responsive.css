@@ -169,14 +169,17 @@ h1 {
     .img-sps {
         display: flex;
         padding: 2rem 0 4rem 0;
+        justify-content: center;
     }
 
     .img-sps img:nth-child(1) {
         transform: translateX(15px);
+        width: 40%;
     }
 
     .img-sps img:nth-child(2) {
         transform: translate(-15px, 30px);
+        width: 40%;
     }
 
     .home-footer {
@@ -191,7 +194,7 @@ h1 {
     }
 
     .underline {
-        border: 3px solid #E4E4E4;
+        border-bottom: 6px solid #E4E4E4;
         width: 100%;
     }
 
