@@ -9,6 +9,9 @@ In folder 'src', You can see 'components' folder, this folder contains all compo
 In folder 'stylesheet', this folder contains all style in .css file
 App.js running all components
 index.css is a default css & general css style
+## Website Full Responsive from 320px and other devices.
+## Responsive Breakpoint Mobile from 320px (width) to < 1024px
+## Respinsive breakpoint Desktop from 1024px (width) to 1980px (width) and other is well
 ```bash
 .
 └── src/
