@@ -1,7 +1,8 @@
 # Install Packages using NPM command
-
+Git clone & run
+```
 npm install
-
+```
 ## All source-code Project in folder 'src'
 
 In folder 'src', You can see 'components' folder, this folder contains all components.
