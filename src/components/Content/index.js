@@ -32,7 +32,7 @@ function Content(props) {
                 <h1>{e.bigTitle}</h1>
                 <h2>{e.desc}</h2>
             </div>
-            <img data-aos={`${index % 2 == 0 ? 'fade-right' : 'fade-left'}`}
+            <img data-aos='fade-up'
                 data-aos-duration="1000" src={e.imgSrc}></img>
         </div>
     })
