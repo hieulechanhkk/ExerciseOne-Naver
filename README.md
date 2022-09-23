@@ -8,7 +8,7 @@ In folder 'src', You can see 'components' folder, this folder contains all compo
 In folder 'stylesheet', this folder contains all style in .css file
 App.js running all components
 index.css is a default css & general css style
-
+```bash
 .
 └── src/
     ├── components/ (-> All Components)
@@ -20,7 +20,7 @@ index.css is a default css & general css style
     │   └── responesive.css
     ├── App.js
     └── index.css
-
+```
 ### `npm start`
 
 Runs the app in the development mode.\
