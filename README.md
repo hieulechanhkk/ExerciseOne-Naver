@@ -11,7 +11,7 @@ App.js running all components
 index.css is a default css & general css style
 ## Website Full Responsive from 320px and other devices.
 ## Responsive Breakpoint Mobile from 320px (width) to < 1024px
-## Respinsive breakpoint Desktop from 1024px (width) to 1980px (width) and other is well
+## Respinsive breakpoint Desktop from 1024px (width) to 1980px (width) and the others
 ```bash
 .
 └── src/
@@ -47,6 +47,15 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+
+
+
+
+
+
+
 
 ### `npm run eject`
 
