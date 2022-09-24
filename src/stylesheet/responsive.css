@@ -465,6 +465,7 @@ h1 {
     .btn-store {
         flex-direction: row;
         width: 43%;
+        max-width: 500px;
     }
 
     .btn-store button {
