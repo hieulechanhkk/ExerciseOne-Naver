@@ -11,8 +11,7 @@ function Download(props) {
             <h2 className='slogan-two'>
                 Available on your favorite store. Start your premium experience now
             </h2>
-            <div data-aos='zoom-in'
-                data-aos-duration="1000"  className='btn-download'>
+            <div className='btn-download'>
                 <button>Buy now</button>
                 <button>Try for free</button>
             </div>
