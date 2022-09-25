@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './stylesheet/responsive.css'
 import Logo from './logo.png'
 import { IoMdMenu } from 'react-icons/io'
@@ -9,6 +9,11 @@ import Footer from './components/Footer';
 import Aos from 'aos';
 
 function App(props) {
+  const [toggle, setToggle] = useState(false)
+  
+  const hanldeMenu = () => {
+    setToggle(!toggle)
+  }
   Aos.init();
   return (
     <div className='App'>
@@ -20,8 +25,14 @@ function App(props) {
           <a href='#'>Faq</a>
           <a href='#'>Contact</a>
         </div>
-        <IoMdMenu className='nav-bar--menu'></IoMdMenu>
+        <IoMdMenu className='nav-bar--menu' onClick={hanldeMenu}></IoMdMenu>
       </div>
+      <div className={`${toggle == false ? 'disable':'navbar-phone'}`}>
+          <a href='#home' onClick={hanldeMenu}>Home</a>
+          <a href='#'>Product</a>
+          <a href='#'>Faq</a>
+          <a href='#'>Contact</a>
+        </div>
       {/* Home Page */}
       <Home></Home>
       <div className='underline'></div>
